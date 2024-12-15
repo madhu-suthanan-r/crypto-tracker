@@ -21,8 +21,8 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "center",
   },
   carousel: {
-    height: "50%",
     display: "flex",
+    height: "50%",
     alignItems: "center",
   },
 }));
