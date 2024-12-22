@@ -30,7 +30,7 @@ const Carousel = () => {
   const fetchTrendingCoins = async () => {
     const { data } = await axios.get(TrendingCoins(currency));
 
-    console.log(data);
+    // console.log(data);
     setTrending(data);
   };
 
@@ -98,7 +98,6 @@ const Carousel = () => {
 
 export default Carousel;
 
-
 export function numberWithCommas(x) {
-    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-  }
+  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
